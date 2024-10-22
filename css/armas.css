@@ -1,0 +1,138 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 80vh !important;
+    background: url(../img/makihermosa.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    margin-bottom: 50px;
+    font-size: 80px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.imagenes {
+    background-image: url(../img/tojiymaki.webp);
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.parrafoscontenido {
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+
+h2 {
+    letter-spacing: 2px;
+    font-size: 70px;
+    margin-top: 20px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.quotes{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(54, 0, 0);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+h3 {
+    letter-spacing: 2px;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+td {
+    font-size: 25px;
+    padding: 10px;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+th{
+    border-bottom: 3px solid white;
+    text-align: center;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.secciones {
+    /*background: #410101;*/
+    background-color: #410101;
+    background-image: linear-gradient(to right, #410101, #0B0614);
+    height: auto;
+}
+
+.contenidocaja {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px 20px 0 0;
+    background-color: #0B0614;
+    background-image: linear-gradient(to left, #0B0614, #410101);
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contenidocajacontinuacion {
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #0B0614;
+    background-image: linear-gradient(to left, #0B0614, #410101);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+}

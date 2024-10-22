@@ -49,6 +49,13 @@ function quitarColor() {
         img.setAttribute('src', '../img/s2.webp');
         info.textContent = 'La segunda temporada de Jujutsu Kaisen se estrenó el 6 de julio de 2023 y concluyó el 31 de diciembre del mismo año. La temporada adaptó los capítulos del manga original de Gege Akutami desde el 64 hasta el 117.';
         info2.textContent = 'La popularidad de la segunda temporada ha llevado a la confirmación de una tercera temporada, que se espera que se estrene en 2024. La franquicia de Jujutsu Kaisen sigue siendo uno de los animes más populares y exitosos de la actualidad.';
+    }else if(titulo.textContent === 'Historia'){
+        s1.classList.remove('activo');
+        s2.classList.remove('activo');
+        jjk0.classList.remove('activo');
+        img.setAttribute('src', '../img/imagen-promocional-de-jujutsu-kaisen.webp');
+        info.textContent = 'Jujutsu Kaisen se ha convertido en un fenómeno global, cautivando a millones de fans con su trama intrigante, personajes carismáticos y animación de alta calidad. La serie, que combina elementos de acción, horror y sobrenatural, ha logrado un equilibrio perfecto entre momentos emocionantes y desarrollo de personajes, creando un vínculo profundo con los espectadores. Su éxito se evidencia en las ventas récord del manga, el gran seguimiento de la adaptación al anime, la gran cantidad de contenido generado por los fans en redes sociales y su reconocimiento en prestigiosos premios como los Crunchyroll Anime Awards. La combinación de una historia original, personajes memorables y una producción de primer nivel ha posicionado a Jujutsu Kaisen como uno de los animes más populares y influyentes de la actualidad.';
+        info2.textContent = null;
     }
 }
 activo();

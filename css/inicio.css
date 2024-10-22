@@ -5,17 +5,20 @@ header {
 }
 
 .header {
-    height: 70vh !important;
+    height: 100vh !important;
     background: url(../img/ueilrvjzphbc1.webp) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .title {
-    margin-bottom: 40px;
+    margin-top: 70px;
+    margin-bottom: 25px;
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
+    letter-spacing: 4px;
 }
 
 .p {
@@ -41,17 +44,14 @@ header {
     height: auto;
 }
 
-
-
-
 .nav-item {
     display: inline;
     float: left;
-    height: 60px;
+    height: 50px;
     width: 32%;
     padding: 5% 0px;
     text-align: center;
-
+    vertical-align: middle;
     font-size: 40px;
     color: white;
     cursor: pointer;
@@ -69,45 +69,46 @@ header {
 
 .nav-list {
     width: 90%;
-
-
     margin-left: auto;
     margin-right: auto;
 }
 
 .nav-list :hover {
+    font-size: 50px;
+    vertical-align: middle;
     background-color: #A9827E;
 }
 
 li {
     /*background-color: #C89588;*/
     height: 200px;
-    background-color: #C89588;
-    background-image: linear-gradient(to right, #C89588, #5A4C5D);
-    border-radius: 50%;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: 1px solid #A9827E;
 
 }
 
 li:hover {
-    background-color: red;
-    background-image: linear-gradient(to left, red, #C89588);
+    border-radius: 20px;
+    background-color: #A9827E;
 }
 
 .resultados {
     width: 90%;
     /*background-color: #104386;*/
     background-color: #C89588;
-    background-image: linear-gradient(to right, #C89588, #5A4C5D);
-    height: 500px;
-
+    background-image: linear-gradient(to right, #410101, #0B0614);
+    height: 800px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
     margin-left: auto;
     margin-right: auto;
     padding: 20px 20px;
 }
 
 .zonatex {
-    width: 65%;
-    height: 500px;
+    width: 55%;
+    height: 800px;
     background-color: #0B0614;
     background-image: linear-gradient(to right, #0B0614, black);
 
@@ -142,34 +143,24 @@ li:hover {
 
 .zonaResultados p {
 
-    font-size: 20px;
+    font-size: 25px;
     margin: 20px 80px;
     width: 80%;
     align-self: center;
     color: white;
+    
 
 }
 
-
-
 .zonaResultados img {
-
     float: right;
-    width: 100%;
-    height: 500px;
+    height: 800px;
+    width: 550px;
     object-fit: cover;
 }
 
-footer {
-    background-color: #410101;
-    background-image: linear-gradient(to right, #410101, #0B0614);
-    padding: 10px;
-    text-align: center;
-    color: #fff;
-}
 .activo {
-    background-color: #104386;
-    background-image: linear-gradient(to right, #104386, #0B0614);
+    background-color: #A9827E;
 }
 
 .jjk0fondo{
@@ -180,3 +171,4 @@ footer {
     background: url(../img/jjk0_poster.jpg) no-repeat center;
     background-size: cover;
 }
+
